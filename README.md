@@ -4,7 +4,6 @@ Project Name : PhaksAutomation
 Page Object Model automation testing framework in C# using SpecFlow, Selenium and JavaScript
 
 The framework is designed using the most popular IDE for C# , Visual Studio 2017 version 15.9.16.
-The following Tools are required to be installed on your machine.
 
 The framework Structure 
 The POM framework is made up of the following folders:
@@ -21,6 +20,13 @@ The POM framework is made up of the following folders:
 - Selenium subfolder will have some configuration files
 
 The following Tools are required to be installed on your machine.
+
+Please make sure you have either of these below browsers installed.
+- Chrome
+- Internet expolrer
+- firefox
+
+The following Extensions and Nygets were included with the appliction
 
 1.	Extensions and Updates
 
@@ -46,7 +52,6 @@ After installation of the NuGet packages, a configuration file is created called
 The framework Structure 
 The POM framework is made up of the following folders:
  
-
 1.	Features Folder. This folder contains SpecFlow feature files. 
 2.	Pages Folder. This folder contains class files. These files will have the functionality of the pages we are testing. 
 3.	Steps Folder. This folder contains the SpecFlow step definition files. 
